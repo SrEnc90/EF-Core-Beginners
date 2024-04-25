@@ -67,5 +67,7 @@ public class AutoMapperProfiles: Profile
                             Id = id
                         })));
         CreateMap<PeliculaActorCreacionDTO, PeliculaActor>();
+
+        CreateMap<ActorCreacionDTO, Actor>();
     }
 }

@@ -12,5 +12,7 @@ public class ActorConfig: IEntityTypeConfiguration<Actor>
             .IsRequired();
         builder.Property(prop => prop.FechaNacimiento)
             .HasColumnType("Date");
+
+        builder.Property(x => x.Nombre).HasField("_nombre");
     }
 }

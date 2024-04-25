@@ -12,7 +12,7 @@ public class Pelicula
     public List<Genero> Generos { get; set; }
     // public HashSet<SalaDeCine> SalaDeCines { get; set; } El HashSet no es IEnumerable no me permite hacer forEach con el método Post de PeliculasController
     public List<SalaDeCine> SalaDeCines { get; set; }
-    //Mismo proble que HashSet<SalaDeCine>
+    //Mismo problema que HashSet<SalaDeCine>
     //public HashSet<PeliculaActor> PeliculasActores { get; set; } //Relación muchos a muchos, Tabla intermedia (PeliculaActor)
     public List<PeliculaActor> PeliculasActores { get; set; } //Relación muchos a muchos, Tabla intermedia (PeliculaActor)
 }

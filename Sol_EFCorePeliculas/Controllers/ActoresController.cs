@@ -9,12 +9,12 @@ namespace Sol_EFCorePeliculas.Controllers;
 
 [ApiController]
 [Route("api/actores")]
-public class AutoresController: ControllerBase
+public class ActoresController: ControllerBase
 {
     private readonly ApplicationDbContext _context;
     private readonly IMapper _mapper;
 
-    public AutoresController(ApplicationDbContext context, IMapper mapper)
+    public ActoresController(ApplicationDbContext context, IMapper mapper)
     {
         _context = context;
         _mapper = mapper;
